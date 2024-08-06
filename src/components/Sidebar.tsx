@@ -1,12 +1,9 @@
+import Search from "./subcomponents/Search"
+
 export default function Sidebar() {
     return (
         <div className="w-[279px] h-[1070px] bg-white border-r-2 border-black flex-col justify-start items-center inline-flex">
-            <div className="self-stretch p-2.5 bg-white rounded-bl-lg rounded-br-lg border border-black justify-start items-center gap-2 inline-flex">
-                <div className="w-[21.60px] h-[21.60px] relative" />
-                <div className="h-6 justify-center items-center gap-2.5 flex">
-                    <div className="w-[54px] text-[#667085] text-base font-normal font-['Inter'] leading-normal">Search</div>
-                </div>
-            </div>
+            <Search />
             <div className="p-2.5 flex-col justify-start items-start gap-2.5 flex">
                 <div className="h-[121px] bg-white flex-col justify-start items-center gap-[5px] flex">
                     <div className="self-stretch h-6 justify-start items-center gap-2 inline-flex">
