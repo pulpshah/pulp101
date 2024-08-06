@@ -11,16 +11,16 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[92px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[82px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Company Overview</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Company Overview</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[133px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Core Values</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Core Values</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[114px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Lead Members</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Lead Members</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[118px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Achievements</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Achievements</div>
                         </div>
                     </div>
                 </div>
@@ -30,13 +30,13 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[68px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[159px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">TextMRI</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">TextMRI</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[46px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Expository Data Analysis</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Expository Data Analysis</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[175px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Gloria</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Gloria</div>
                         </div>
                     </div>
                 </div>
@@ -46,16 +46,16 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[92px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[166px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">NextJS</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">NextJS</div>
                         </div>
                         <div className="w-[215px] h-5 pr-48 rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">CLI</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">CLI</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[127px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Server Hosts</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Server Hosts</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[173px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Figma</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Figma</div>
                         </div>
                     </div>
                 </div>
@@ -65,10 +65,10 @@ export default function Sidebar() {
                     </div>
                     <div className="h-11 flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[172px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Auth0</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Auth0</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[50px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Google Identity Platform</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Google Identity Platform</div>
                         </div>
                     </div>
                 </div>
@@ -78,16 +78,16 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[92px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[157px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Creation</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Creation</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[113px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Account Types</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Account Types</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[125px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Management</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Management</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[158px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Security</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Security</div>
                         </div>
                     </div>
                 </div>
@@ -97,16 +97,16 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[92px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[150px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Overview</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Overview</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[105px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Metadata Types</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Metadata Types</div>
                         </div>
                         <div className="w-[215px] h-5 pr-12 rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Standards and Protocols</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Standards and Protocols</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[140px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Integration</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Integration</div>
                         </div>
                     </div>
                 </div>
@@ -116,13 +116,13 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[68px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[127px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Data Upkeep</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Data Upkeep</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[127px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Service Logs</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Service Logs</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[99px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Scheduled Tasks</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Scheduled Tasks</div>
                         </div>
                     </div>
                 </div>
@@ -132,10 +132,10 @@ export default function Sidebar() {
                     </div>
                     <div className="h-11 flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[141px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Changelog</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Changelog</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[119px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Archived Files</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Archived Files</div>
                         </div>
                     </div>
                 </div>
@@ -145,13 +145,13 @@ export default function Sidebar() {
                     </div>
                     <div className="h-[68px] flex-col justify-start items-start gap-1 flex">
                         <div className="w-[215px] h-5 pr-[54px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Webhook Configuration</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Webhook Configuration</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[110px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Event Listeners</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Event Listeners</div>
                         </div>
                         <div className="w-[215px] h-5 pr-[145px] rounded-lg justify-start items-center inline-flex">
-                            <div className="text-[#6840c6] text-sm font-semibold font-['Inter'] leading-tight">Error Logs</div>
+                            <div className="text-[#6840c6] text-sm font-semibold leading-tight">Error Logs</div>
                         </div>
                     </div>
                 </div>

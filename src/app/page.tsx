@@ -6,6 +6,6 @@ export default function Home() {
   return (
     <><Navbar />
     <Sidebar />
-    <h1>Test</h1></>
+    </>
   )
 }
