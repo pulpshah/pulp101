@@ -2,7 +2,7 @@ import Search from "./subcomponents/Search"
 
 export default function Sidebar() {
     return (
-        <div className="w-[279px] h-[1070px] bg-white border-r-2 border-black flex-col justify-start items-center inline-flex">
+        <div className="w-[280px] h-[1070px] bg-white border-r-2 border-black flex-col justify-start items-center inline-flex">
             <Search />
             <div className="p-2.5 flex-col justify-start items-start gap-2.5 flex">
                 <div className="h-[121px] bg-white flex-col justify-start items-center gap-[5px] flex">
