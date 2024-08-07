@@ -39,7 +39,7 @@ export default function Search() {
         <div ref={searchBoxRef} className="w-full">
             {/* Search Box */}
             <div 
-                className="w-full p-2.5 bg-white rounded-bl-lg rounded-br-lg border border-black flex items-center gap-2"
+                className="w-full p-2.5 bg-white rounded-bl-lg rounded-br-lg border border-black flex items-center gap-2 cursor-pointer hover:bg-gray-100 transition-colors"
                 onClick={handleSearchBoxClick}
             >
                 {/* Icon */}

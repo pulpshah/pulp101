@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link'; // Import Link from Next.js
 import Search from "./subcomponents/Search";
 
 export default function Sidebar() {
@@ -48,14 +49,13 @@ export default function Sidebar() {
               <div className="section-items flex flex-col gap-1 mt-1 w-full pl-4">
                 {section.items.map((item, itemIndex) => {
                   const index = `${sectionIndex}-${itemIndex}`;
+                  const slug = item.toLowerCase().replace(/\s+/g, '-'); // Create a URL-friendly slug
                   return (
-                    <div
-                      key={index}
-                      className={`sidebarItem w-full pr-2 rounded-lg justify-start items-center inline-flex ${activeItem === index ? 'active' : ''}`}
-                      onClick={() => handleClick(index)}
-                    >
-                      <div className="text-[#6840c6] text-sm font-semibold leading-tight">{item}</div>
-                    </div>
+                    <Link key={index} href={`/info/${slug}`} 
+                          className={`sidebarItem w-full pr-2 rounded-lg justify-start items-center inline-flex ${activeItem === index ? 'active' : ''}`}
+                          onClick={() => handleClick(index)}>
+                        <div className="text-[#6840c6] text-sm font-semibold leading-tight">{item}</div>
+                    </Link>
                   );
                 })}
               </div>
