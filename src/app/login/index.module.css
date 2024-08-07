@@ -1,0 +1,452 @@
+/* src/app/login/index.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+
+.backgroundOverlayIcon {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+
+.label {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.content1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.input {
+  align-self: stretch;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #667085;
+}
+
+.inputWithLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.inputField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.form1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.checkboxBase {
+  width: 16px;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.input2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 0px 0px;
+}
+
+.text2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.textAndSupportingText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.checkbox {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.text3 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.buttonsbutton {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #6941c6;
+}
+
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form {
+  align-self: stretch;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 24px;
+  box-sizing: border-box;
+}
+
+.text4 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.textPadding {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 2px;
+}
+
+.signIn {
+  align-self: stretch;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-color: #7f56d9;
+  border: 1px solid #7f56d9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+}
+
+.socialIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.socialButton {
+  align-self: stretch;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  gap: 12px;
+}
+
+.socialSignIn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #344054;
+}
+
+.content3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 24px 24px;
+  gap: 12px;
+}
+
+.dividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+
+.dividerWrap {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 24px;
+}
+
+.modalActions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: px 0px 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.b {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 54px;
+  height: 32px;
+}
+
+.image2Icon {
+  position: absolute;
+  top: 14.5px;
+  left: 9px;
+  width: 91px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.parent {
+  width: 162px;
+  position: relative;
+  height: 44px;
+}
+
+.logo {
+  width: 162px;
+  background-color: #fff;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 8px;
+  box-sizing: border-box;
+}
+
+.text6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475467;
+}
+
+.textAndSupportingText1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: center;
+  font-size: 18px;
+  color: #101828;
+  font-family: Inter;
+}
+
+.content4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 24px 0px;
+  gap: 16px;
+}
+
+.paddingBottom {
+  align-self: stretch;
+  height: 20px;
+}
+
+.header {
+  width: 100%;
+  height: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 32px;
+  color: #000;
+  font-family: Jost;
+}
+
+.text7 {
+  width: 205px;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.signUp1 {
+  width: 121px;
+  border-radius: 8px;
+  background-color: #6941c6;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #6941c6;
+  margin-top: -20px;
+  margin-bottom: 20px; /* Adjust the negative margin to move the text and button up */
+}
+
+.logInModule {
+  width: 636px;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border-radius: 12px;
+  background-color: #fff;
+  height: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageContents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.logInPage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 75vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  color: #344054;
+  font-family: Inter;
+}
+/* src/app/login/index.module.css */
+/* Other CSS remains unchanged */
+
+.inputFieldElement {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #344054;
+  }
+  
