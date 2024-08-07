@@ -1,4 +1,8 @@
 import React from 'react';
+import Image from 'next/image';
+import Google from '../assets/SocialIcons/Google.svg'
+import Facebook from '../assets/SocialIcons/Facebook.svg'
+import X from '../assets/SocialIcons/X.svg'
 
 const Footer = () => {
   return (
@@ -11,13 +15,13 @@ const Footer = () => {
         </div>
         <div className="socials flex space-x-4">
           <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/google.png" alt="Google" className="w-6 h-6" />
+            <Image src={Google} alt="Google" className="w-6 h-6" />
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/facebook.png" alt="Facebook" className="w-6 h-6" />
+            <Image src={Facebook} alt="Facebook" className="w-6 h-6" />
           </a>
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/twitter.png" alt="Twitter" className="w-6 h-6" />
+            <Image src={X} alt="X" className="w-6 h-6" />
           </a>
         </div>
       </div>

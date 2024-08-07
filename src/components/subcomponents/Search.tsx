@@ -1,6 +1,6 @@
 "use client";
 
-import SearchIcon from '../../assets/Search.svg'
+import SearchIcon from '../../assets/Search.svg';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
@@ -76,6 +76,16 @@ export default function Search() {
                                 placeholder={!hasFocus && searchText === '' ? 'Go to...' : ''}
                                 className="w-full px-3.5 py-2.5 bg-white rounded-lg shadow border border-[#d0d5dd] text-black"
                             />
+                            {/* Search Results */}
+                            {searchText && (
+                                <div className="mt-4">
+                                    <div className="flex flex-col gap-2">
+                                        <div className="text-[#000000] p-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer">
+                                            {searchText}
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

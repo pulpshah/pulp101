@@ -35,17 +35,17 @@ export default function Sidebar() {
       <div className="sticky top-0 z-10 bg-white w-full">
         <Search />
       </div>
-      <div className="flex-1 overflow-y-auto w-full p-2.5 hover:overflow-y-auto">
+      <div className="flex-1 overflow-y-auto w-full p-4">
         {sections.map((section, sectionIndex) => (
           <div key={sectionIndex} className="section w-full">
             <div
-              className="self-stretch h-6 justify-start items-center gap-2 inline-flex cursor-pointer w-full"
+              className="self-stretch h-8 justify-start items-center gap-2 inline-flex cursor-pointer w-full hover:bg-gray-100 p-2 rounded-lg"
               onClick={() => toggleSection(sectionIndex.toString())}
             >
-              <div className="text-[#101828] text-base font-semibold font-['Inter'] leading-normal">{section.title}</div>
+              <div className="text-[#101828] text-lg font-semibold font-['Inter'] leading-normal">{section.title}</div>
             </div>
             {!collapsedSections[sectionIndex.toString()] && (
-              <div className="section-items flex flex-col gap-1 mt-1 w-full">
+              <div className="section-items flex flex-col gap-1 mt-1 w-full pl-4">
                 {section.items.map((item, itemIndex) => {
                   const index = `${sectionIndex}-${itemIndex}`;
                   return (
