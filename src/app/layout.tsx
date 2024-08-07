@@ -1,3 +1,5 @@
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer'; // Adjust the path as necessary
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -18,8 +20,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
-        <Footer />
+        <div className="flex flex-col h-screen">
+          <Navbar />
+          <div className="flex flex-1 overflow-hidden">
+            <Sidebar />
+            <main className="flex-1 p-5 bg-white overflow-y-auto">
+              {children}
+            </main>
+          </div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

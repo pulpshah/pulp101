@@ -31,7 +31,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="sidebar w-[280px] h-[1070px] bg-white border-r-2 border-black flex flex-col">
+    <div className="w-[280px] bg-white border-r-2 border-black flex flex-col h-full">
       <div className="sticky top-0 z-10 bg-white w-full">
         <Search />
       </div>

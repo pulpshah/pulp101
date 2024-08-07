@@ -11,14 +11,14 @@ export default function Search() {
     const [hasFocus, setHasFocus] = useState(false);
 
     // Reference to the search box element
-    const searchBoxRef = useRef(null);
+    const searchBoxRef = useRef<HTMLDivElement>(null);
 
     // Function to handle click on the search box to show popup
     const handleSearchBoxClick = () => setIsPopupVisible(true);
 
     // Function to handle clicks outside the search box to close the popup
-    const handleClickOutside = (event) => {
-        if (searchBoxRef.current && !searchBoxRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+        if (searchBoxRef.current && !searchBoxRef.current.contains(event.target as Node)) {
             setIsPopupVisible(false);
         }
     };
