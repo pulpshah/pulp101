@@ -1,7 +1,6 @@
-"use client";
-
+// src/components/Sidebar.tsx
 import React, { useState } from 'react';
-import Link from 'next/link'; // Import Link from Next.js
+import Link from 'next/link'; // Import Link from next/link
 import Search from "./subcomponents/Search";
 
 export default function Sidebar() {
@@ -20,15 +19,38 @@ export default function Sidebar() {
   };
 
   const sections = [
-    { title: 'Introduction', items: ['Company Overview', 'Core Values', 'Lead Members', 'Achievements'] },
-    { title: 'Projects', items: ['TextMRI', 'Expository Data Analysis', 'Gloria'] },
-    { title: 'API Keys', items: ['NextJS', 'CLI', 'Server Hosts', 'Figma'] },
-    { title: 'Authentication', items: ['Auth0', 'Google Identity Platform'] },
-    { title: 'Accounts', items: ['Creation', 'Account Types', 'Management', 'Security'] },
-    { title: 'Metadata', items: ['Overview', 'Metadata Types', 'Standards and Protocols', 'Integration'] },
-    { title: 'Maintenance', items: ['Data Upkeep', 'Service Logs', 'Scheduled Tasks'] },
-    { title: 'Version History', items: ['Changelog', 'Archived Files'] },
-    { title: 'Webhooks', items: ['Webhook Configuration', 'Event Listeners', 'Error Logs'] }
+    { title: 'Introduction', items: [
+      { name: 'Overview', id: 'pulp101' },
+      { name: 'Core Values', id: 'core-values' },
+      { name: 'Achievements', id: 'achievements' },
+    ]},
+    { title: 'Neo4J', items: [
+      { name: 'Overview', id: 'neo4j-overview' },
+      { name: 'Important Structures', id: 'neo4j-structures' },
+      { name: 'Functions', id: 'neo4j-functions' },
+      { name: 'Advantages', id: 'neo4j-advantages' },
+      { name: 'Cypher', id: 'cypher' }
+    ]},
+    { title: 'Diffbot', items: [
+      { name: 'Overview', id: 'diffbot-overview' },
+      { name: 'Extract API', id: 'extract-api' },
+      { name: 'Knowledge Graph', id: 'knowledge-graph' },
+      { name: 'Bulk & Crawl', id: 'bulk-crawl' },
+      { name: 'Natural Language Processing', id: 'nlp' }
+    ]},
+    { title: 'OCR Script', items: [
+      { name: 'Overview', id: 'ocr-overview' },
+      { name: 'Functions', id: 'ocr-functions' },
+      { name: 'Installation Guide', id: 'ocr-installation' },
+      { name: 'Running the Script', id: 'ocr-running-script' }
+    ]},
+    { title: 'TextMRI', items: [
+      { name: 'Modules', id: 'textmri-modules' },
+      { name: 'UI Elements', id: 'textmri-ui-elements' },
+      { name: 'Screens', id: 'textmri-screens' },
+      { name: 'Annotations', id: 'textmri-annotations' },
+      { name: 'Gloria', id: 'textmri-gloria' }
+    ]}
   ];
 
   return (
@@ -48,13 +70,15 @@ export default function Sidebar() {
             {!collapsedSections[sectionIndex.toString()] && (
               <div className="section-items flex flex-col gap-1 mt-1 w-full pl-4">
                 {section.items.map((item, itemIndex) => {
-                  const index = `${sectionIndex}-${itemIndex}`;
-                  const slug = item.toLowerCase().replace(/\s+/g, '-'); // Create a URL-friendly slug
+                  const index = `${sectionIndex}-${itemIndex}`; // Fixed string interpolation
                   return (
-                    <Link key={index} href={`/info/${slug}`} 
-                          className={`sidebarItem w-full pr-2 rounded-lg justify-start items-center inline-flex ${activeItem === index ? 'active' : ''}`}
-                          onClick={() => handleClick(index)}>
-                        <div className="text-[#6840c6] text-sm font-semibold leading-tight">{item}</div>
+                    <Link href={`/${item.id}`} key={index}> {/* Linking to the dynamic [slug] page */}
+                      <div
+                        className={`sidebarItem w-full pr-2 rounded-lg justify-start items-center inline-flex ${activeItem === index ? 'active' : ''}`}
+                        onClick={() => handleClick(index)}
+                      >
+                        <div className="text-[#6840c6] text-sm font-semibold leading-tight">{item.name}</div>
+                      </div>
                     </Link>
                   );
                 })}
